@@ -1,0 +1,62 @@
+/* 퍼블리싱 필수 공통영역 */
+@charset "utf-8";
+@import url('../css/web.css');
+/* @import url('../css/tablet.css'); */
+@import url('../css/mobile.css'); 
+@import url('../css/fonts.css'); 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+
+
+/* default */
+html {height:100%;}
+div, p, ul, li, table, th, td, textarea, input,  form, h1, h2, h3, h4, h5, h6, dt, dl, dd, em, address, cite,
+ul, ol, dl, dd, dt, li {list-style-type:none;margin:0;padding:0px;color:#333;box-sizing:border-box;}
+body {width:100%;height:100%;margin:0px;padding:0px;font-family:'Montserrat', sans-serif;font-size:13px;color:#333;line-height:1.15;font-weight:normal;overflow-y:scroll;}
+button {padding:0;margin:0;background-color:transparent;color:#fff;border:none;/* outline:none !important;*/ }
+caption{display:none;overflow:hidden;width:0;height:0;font-size:0;text-indent:-9999em;}
+abbr, img, fieldset {border:0 none;/* tab focus */}
+
+/* link */
+a {text-decoration:none;color:#333;}
+a:link, a:visited {text-decoration:none;color:#333;}
+a:hover, a:focus, a:active {text-decoration:none;color:#397fe7;}
+a:focus, img:focus {/* outline:none */}
+
+/* align */
+.vat {vertical-align:top !important;}
+.vam {vertical-align:middle !important;}
+.vab {vertical-align:bottom !important;}
+
+/* margin */
+.mgA {margin:auto;}
+.mgR10 {margin-right:10px;}
+
+.fR {float:right;}
+
+/* text*/
+.tL{text-align:left !important}
+.tC{text-align:center !important}
+.tR{text-align:right !important}
+
+.txtCR {color:#ff6500;}
+.txtCB {color:#3261cd;}
+.txtCLB {color:#74a5ee;}
+/* .txtCB {color:#397fe7;} */
+.txtCBG {color:#11a0d2;}
+
+.bold {font-weight:bold;}
+
+.txtS12 {font-size:12px;}
+.txtS15 {font-size:15px;}
+
+/* bg color */
+.bg-yellow {background:#FCFC90}
+.bg-red {background:#FFAFAF;}
+
+/* width */
+.w30 { width:30%; !important;}
+
+
+
