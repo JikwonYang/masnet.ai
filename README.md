@@ -1,2 +1,2 @@
 # masnet.ai
-Masternet
+Masternet information site
