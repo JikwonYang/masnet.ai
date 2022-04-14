@@ -1,9 +1,9 @@
 /* 퍼블리싱 필수 공통영역 */
 @charset "utf-8";
 @import url('../css/web.css');
-/* @import url('../css/tablet.css'); */
 @import url('../css/mobile.css'); 
 @import url('../css/fonts.css'); 
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
 
@@ -43,8 +43,8 @@ a:focus, img:focus {/* outline:none */}
 .txtCR {color:#ff6500;}
 .txtCB {color:#3261cd;}
 .txtCLB {color:#74a5ee;}
-/* .txtCB {color:#397fe7;} */
 .txtCBG {color:#11a0d2;}
+.txtCP {color:#644eee;}
 
 .bold {font-weight:bold;}
 
